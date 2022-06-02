@@ -24,6 +24,6 @@
   .page {
     display: flex;
     flex-direction: column;
-    padding: 16px 0px 24px ; 
+    padding: 16px 0px 24px ;
   }
 }

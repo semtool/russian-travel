@@ -14,3 +14,9 @@
   max-width: 100%;
   background-color: #E5E5E5;
 }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
