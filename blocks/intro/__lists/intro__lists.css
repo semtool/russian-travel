@@ -1,0 +1,6 @@
+.intro__lists {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+}

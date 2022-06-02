@@ -1,0 +1,17 @@
+.intro__title_theme_cover {
+  max-width: 560px;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+  margin-bottom: 32px;
+  color:#FFFFFF;
+}
+
+@media screen and (max-width:720px) {
+  .intro__title_theme_cover {
+    max-width: 250px;
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 16px;
+  }
+}

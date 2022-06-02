@@ -1,0 +1,17 @@
+.header__lang-link {
+  font-family: "Regular";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  max-height: 28px;
+  max-width: 30px;
+}
+
+@media screen and (max-width:320px) {
+  .header__lang-link{
+    font-size: 18px;
+    line-height: 20px;
+    max-height: 20px;
+    max-width: 22px;
+  }
+}
