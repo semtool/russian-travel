@@ -1,4 +1,4 @@
-.intro__title_theme_cover {
+.intro__title_theme_cov {
   max-width: 560px;
   font-size: 72px;
   line-height: 76px;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width:720px) {
-  .intro__title_theme_cover {
+  .intro__title_theme_cov {
     max-width: 250px;
     font-size: 32px;
     line-height: 35px;
