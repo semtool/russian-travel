@@ -1,22 +1,14 @@
 
-@font-face {
-  font-family: "Black";
-  src:url("../../font/Inter-Black.otf");
-}
-
-@font-face {
-  font-family: "Regular";
-  src: url("../../font/Inter-Regular.otf");
-}
-
 .root {
   height: 100%;
   max-width: 100%;
   background-color: #E5E5E5;
-}
 
-* {
+
+}
+/*---закомментировал про запас)))
+*{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-}
+}*/

@@ -12,18 +12,18 @@
   <div class="page">
     <header class="header">
       <img class="header__logo" src="images/header-logo.svg" alt="лого-карта">
-      <nav class="header__logo-links">
-        <a href="#" class="header__lang-link header__lang-link_line">Ru</a>
-        <a href="#" class="header__lang-link header__lang-link_notline">En</a>
-      </nav>
+      <div class="header__logo-links">
+        <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+        <a href="#" class="header__lang-link header__lang-link_active">En</a>
+      </div>
     </header>
 
     <main class="main">
       <section class="lead">
-        <h1 class="lead__title">Путешествия по России</h1>
+        <h1 class="lead__title">Путешествия по&nbsp;России</h1>
         <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
-        <img class="lead__image" src="images/lead-polka.jpg" alt="интро" >
-        <h3 class="lead__caption">ВАША ПОЛКА — ВЕРХНЯЯ</h3>
+        <img class="lead__image" src="images/lead-polka.jpg" alt="интро">
+        <h3 class="lead__caption">ваша полка — верхняя</h3>
       </section>
 
       <section class="intro">
@@ -34,31 +34,31 @@
         Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. 
         Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__lists">
-          <li class="intro__list">Часовых поясов 11</li>
-          <li class="intro__list">Объектов природного наследия ЮНЕСКО 12</li>
-          <li class="intro__list">Объектов культурного наследия ЮНЕСКО 16</li>
-          <li class="intro__list">Природных заповедников 105</li>
-          <li class="intro__list">Аэропортов 241</li>
+          <li class="intro__list"><span class="intro__bold">Часовых поясов</span> 11</li>
+          <li class="intro__list"><span class="intro__bold">Объектов природного наследия ЮНЕСКО</span> 12</li>
+          <li class="intro__list"><span class="intro__bold">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+          <li class="intro__list"><span class="intro__bold">Природных заповедников</span> 105</li>
+          <li class="intro__list"><span class="intro__bold">Аэропортов</span> 241</li>
         </ul>
       </section>
 
-      <div class="photo-grid">
-        <img src="images/photo-grid-train.jpg" alt="фото" class="photo-grid__item">
-        <img src="images/photo-grid-atharva-tulsi.jpg" alt="фото" class="photo-grid__item">
-        <img src="images/photo-grid-tuman.jpg" alt="фото" class="photo-grid__item">
-        <img src="images/photo-grid-sochi.jpg" alt="фото" class="photo-grid__item">
-        <img src="images/photo-grid-arisa.jpg" alt="фото" class="photo-grid__item">
-        <img src="images/photo-grid-baikal.jpg" alt="фото" class="photo-grid__item">
-        <img src="images/photo-grid-elbrus.jpg" alt="фото" class="photo-grid__item">
-        <img src="images/photo-grid-kondratiev.jpg" alt="фото" class="photo-grid__item">
-        <img src="images/photo-grid-kamchatka-1.jpg" alt="фото" class="photo-grid__item">
-        <img src="images/photo-grid-kamchatka-2.jpg" alt="фото" class="photo-grid__item">
-        <img src="images/photo-grid-baikal-2.jpg" alt="фото" class="photo-grid__item">
-        <img src="images/photo-grid-ergaki.jpg" alt="фото" class="photo-grid__item">
-      </div>
+      <section class="photo-grid">
+        <img src="images/photo-grid-train.jpg" alt="поезд" class="photo-grid__item">
+        <img src="images/photo-grid-atharva-tulsi.jpg" alt="вершины гор" class="photo-grid__item">
+        <img src="images/photo-grid-tuman.jpg" alt="туман" class="photo-grid__item">
+        <img src="images/photo-grid-sochi.jpg" alt="лес в Сочи" class="photo-grid__item">
+        <img src="images/photo-grid-arisa.jpg" alt="лед" class="photo-grid__item">
+        <img src="images/photo-grid-baikal.jpg" alt="Байайкал" class="photo-grid__item">
+        <img src="images/photo-grid-elbrus.jpg" alt="Эльбрус" class="photo-grid__item">
+        <img src="images/photo-grid-kondratiev.jpg" alt="дамба" class="photo-grid__item">
+        <img src="images/photo-grid-kamchatka-1.jpg" alt="Камчатка" class="photo-grid__item">
+        <img src="images/photo-grid-kamchatka-2.jpg" alt="сопка" class="photo-grid__item">
+        <img src="images/photo-grid-baikal-2.jpg" alt="скалы" class="photo-grid__item">
+        <img src="images/photo-grid-ergaki.jpg" alt="облака" class="photo-grid__item">
+      </section>
       
       <section class="places">
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class ="place__website"> 
             <p class="place__url-heading">URL</p>
@@ -75,9 +75,9 @@
               Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. 
               Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Кольский</h2>
           <div class ="place__website"> 
             <p class="place__url-heading">URL</p>
@@ -93,9 +93,9 @@
               а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
               в Мурманск.</p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Алтай</h2>
           <div class ="place__website"> 
             <p class="place__url-heading">URL</p>
@@ -110,9 +110,9 @@
                разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, 
                а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class ="place__website"> 
             <p class="place__url-heading">URL</p>
@@ -127,9 +127,9 @@
               к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. 
               В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Карелия</h2>
           <div class ="place__website"> 
             <p class="place__url-heading">URL</p>
@@ -145,16 +145,17 @@
               В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья 
               в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="cover">
         <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__overlay">
-         <h2 class="cover__title">До Байкала «на собаках»</h2> 
-         <p class="cover__subtitle">По мотивам учебной темы о 
-          Транссибе — путешествие от столицы до Байкала на электричках.</p> 
+          <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о
+          Транссибе — путешествие от столицы до Байкала на электричках.</p>
         </a>
-       <img class="cover__background" src="images/cover-trains.jpg" alt="вагоны">
+      
+        <img class="cover__background" src="images/cover-trains.jpg" alt="вагоны">
       </section>
     </main>
 
@@ -166,7 +167,7 @@
         <a href="https://calendar.yandex.ru" class="footer__link">Календарь</a> 
         <a href="https://travel.yandex.ru" class="footer__link">Путешествия</a> 
       </nav>
-      <p class="footer__copyright">&copy;2022.Сергей Семериков</p>
+      <p class="footer__copyright">&copy;2022. Сергей Семериков</p>
     </footer>
   </div>
 </body>

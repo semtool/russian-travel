@@ -1,7 +1,9 @@
 .cover{
   position: relative;
+  display: grid;
+  grid-template: 1fr/1fr;
   max-width: 1184px;
-  margin: 0px auto 92px;
+  margin: 0px 0px 92px;
 }
 
 
@@ -12,14 +14,12 @@
 }
 @media screen and (max-width:768px) {
   .cover{
-    max-width: 100%;
     margin: 0px auto 88px;
-  } 
+  }
 }
 
 @media screen and (max-width:320px) {
   .cover{
-    max-width: 100%;
     margin: 0px auto 64px;
   }
 }
